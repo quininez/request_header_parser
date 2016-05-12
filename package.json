@@ -1,0 +1,24 @@
+{
+  "name": "request_header_parser",
+  "version": "1.0.0",
+  "description": "api call returns JSON with IP, language and OS of user",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quininez/request_header_parser_microservice.git"
+  },
+  "author": "vali cotea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quininez/request_header_parser_microservice/issues"
+  },
+  "homepage": "https://github.com/quininez/request_header_parser_microservice#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "useragent": "^2.1.9"
+  }
+}
